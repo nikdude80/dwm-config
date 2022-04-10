@@ -19,8 +19,8 @@ pacman -S nitrogen
 echo "What is your username"
 read USERNAME
 
-echo "exec dwm &
-nitrogen --restore &
-slstatus &" > /home/$USERNAME/.profile
+echo "nitrogen --restore &
+slstatus &
+exec dwm" > /home/$USERNAME/.profile
 
 echo "DWM successfully installed!"
